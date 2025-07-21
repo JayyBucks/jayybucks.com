@@ -1,0 +1,161 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JayyBucks - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="liveStatus.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="streams.html" id="streams-tab">Streams</a>
+    <a href="about.html">About</a>
+    <a href="reactions.html">Reactions</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div id="live-banner" class="hidden">
+    <a href="streams.html">
+      <span class="blinking-dot"></span> Live Now
+    </a>
+  </div>
+  <main>
+    <section class="video-section">
+      <h2>Recent Videos</h2>
+      <div class="video-grid" id="recent-videos"></div>
+      <a href="https://www.youtube.com/@jayybucks/videos" class="more-link">More</a>
+    </section>
+    <section class="video-section">
+      <h2>Most Popular</h2>
+      <div class="video-grid" id="popular-videos"></div>
+      <a href="https://www.youtube.com/@jayybucks/videos?view=0&sort=p&flow=grid" class="more-link">More</a>
+    </section>
+  </main>
+</body>
+</html>
+
+<!-- streams.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JayyBucks - Streams</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="streamPage.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="streams.html" class="active" id="streams-tab">Streams</a>
+    <a href="about.html">About</a>
+    <a href="reactions.html">Reactions</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <main>
+    <h1>Live Streams</h1>
+    <div class="stream-controls">
+      <label for="layout">Stream Layout:</label>
+      <select id="layout">
+        <option value="landscape">Landscape</option>
+        <option value="vertical">Vertical</option>
+      </select>
+    </div>
+    <div id="streams-container">
+      <!-- Streams with platform tags, live indicators, and iframes go here -->
+    </div>
+  </main>
+</body>
+</html>
+
+<!-- about.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About - JayyBucks</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="liveStatus.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="streams.html" id="streams-tab">Streams</a>
+    <a href="about.html" class="active">About</a>
+    <a href="reactions.html">Reactions</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div id="live-banner" class="hidden">
+    <a href="streams.html">
+      <span class="blinking-dot"></span> Live Now
+    </a>
+  </div>
+  <main>
+    <h1>About JayyBucks</h1>
+    <p>Info about your streaming, projects, goals, and content style goes here.</p>
+  </main>
+</body>
+</html>
+
+<!-- reactions.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reactions - JayyBucks</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="liveStatus.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="streams.html" id="streams-tab">Streams</a>
+    <a href="about.html">About</a>
+    <a href="reactions.html" class="active">Reactions</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <div id="live-banner" class="hidden">
+    <a href="streams.html">
+      <span class="blinking-dot"></span> Live Now
+    </a>
+  </div>
+  <main>
+    <h1>Anime Reactions</h1>
+    <p>Link to Odysee or other platforms hosting your uncut reaction videos.</p>
+  </main>
+</body>
+</html>
+
+<!-- contact.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - JayyBucks</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="liveStatus.js"></script>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="streams.html" id="streams-tab">Streams</a>
+    <a href="about.html">About</a>
+    <a href="reactions.html">Reactions</a>
+    <a href="contact.html" class="active">Contact</a>
+  </nav>
+  <div id="live-banner" class="hidden">
+    <a href="streams.html">
+      <span class="blinking-dot"></span> Live Now
+    </a>
+  </div>
+  <main>
+    <h1>Contact Me</h1>
+    <p>Email or social links for inquiries.</p>
+  </main>
+</body>
+</html>
