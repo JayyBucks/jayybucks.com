@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>JayyBucks - Streams</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="streamPage.js"></script>
+  <script defer src="liveStatus.js"></script>
+</head>
+<body>
+  <nav>
+    <div class="logo">JayyBucks</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="streams.html" class="active" id="streams-tab">Streams <span id="liveDot" class="live-indicator hidden"></span></a>
+      <a href="about.html">About</a>
+      <a href="reactions.html">Reactions</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+  <main>
+    <h1>Live Streams</h1>
+    <div class="stream-controls">
+      <label for="layout">Stream Layout:</label>
+      <select id="layout">
+        <option value="landscape">Landscape</option>
+        <option value="vertical">Vertical</option>
+      </select>
+    </div>
+    <div id="streams-container">
+      <!-- Streams with platform tags, live indicators, and iframes go here -->
+    </div>
+  </main>
+</body>
+</html>
